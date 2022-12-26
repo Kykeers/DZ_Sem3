@@ -26,3 +26,15 @@ __how to pull your changes from the remote rep to the local rep?__
 
 git pull : download your changes to the local rep.
 
+__join to the work group on an existing remote repository.__
+
+
+1.use the sent link.
+2.fork the repository to creat your version of (adds and adjusments) on the project.
+3.creat a new file on VSC, then follow the next commands.
+* git clone (link of fork) : to connect the new file with the forked rep.
+* cd (forked file name) : to change direction of your changes to  the remote rep space.
+* git branch (family name) : creat a new branch where you will add and save your changes.
+* git push -u (branch name) : to link our branch with the forked rep.
+* git push : to upload your changes to the remote forked rep.
+* send a pull request on the git hub, to send your changes to the rep admin to check your changes.
